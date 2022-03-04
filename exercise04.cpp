@@ -16,17 +16,18 @@ int main() {
   
    input(length, width);
    print(length, width);
+  
    return 0;
 }
 
 // Do not change the print() function
 void print(int len, int wth) {
-   cout << "Length : " << len 
-        << ", Width  : " << wth << endl;
+   cout << "Length : " << len << ", Width  : " << wth << endl;
 }
 
 // Implement the Input Function here
 void input(int &length, int &width)
 {
-  
+  length = 10;
+  width = 5;
 }
